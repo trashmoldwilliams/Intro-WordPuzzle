@@ -5,23 +5,22 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Word Puzzle</title>
   </head>
   <body>
-    <h1>Count Up!</h1>
-    <form id="countUpBy">
+    <h1>Word Puzzle</h1>
+    <form id="wordPuzzle">
        <div class="form-group">
-         <p class="lead">Enter a number and a multiple, and we will count up to your first number by that multiple.</p>
-         <label for="total">Total number:</label>
-         <input id="total" type="number">
-         <label for="multiple">Multiple:</label>
-         <input id="multiple" type="number">
+         <p class="lead">Type a sentence and we will turn it into a word puzzle.</p>
+         <label for="statement">Sentence:</label>
+         <input id="statement" type="text">
        </div>
 
-       <button type="submit" class="btn">Count!</button>
+       <button type="submit" class="btn">Puzzle!</button>
      </form>
+
      <div class="result">
-       <ul id="result"></ul>
+       <span id="result"></span>
      </div>
 
   </body>

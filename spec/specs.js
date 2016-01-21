@@ -1,6 +1,6 @@
-describe ("findVowel", function() {
-  it("returns true if the current character is a vowel", function() {
-    expect(findVowel("apple")).to.equal("-ppl-");
+describe ("replaceVowels", function() {
+  it("replaces vowels in statement with '-'s", function() {
+    expect(replaceVowels("apple")).to.equal("-ppl-");
   });
 
 });
